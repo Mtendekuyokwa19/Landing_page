@@ -1,0 +1,172 @@
+/* don't be suprised about the border feature because i use that feaure to be understanding my flex-box code so i ussually set it to border solid red then later to the color of evrything.just dont mind it*/
+
+body {
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+min-width: 100%;
+}
+
+/*this is for the first tabs */
+.header {
+ 
+ gap: 3rem;
+ border:3px solid #2E3A48;
+ background:#2E3A48;
+ height: 25rem;
+ 
+
+}
+
+ul {
+ display: flex;
+ border: solid #2E3A48 3px;
+ width: 80%;
+ gap: 14px;
+ list-style: none;
+margin-left: 5rem;
+color:white;
+height: 3rem;
+font-size: 17px;
+}
+.firstheadlink {
+
+margin-left:auto;
+
+
+}
+
+/*this is for the heading with the frank oxceanlyrics*/
+
+.heading {
+ 
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    margin-left: 5rem;
+    border: solid #2E3A48 3px;
+   
+
+
+}
+.head {
+ font-size: 50px;
+ border:3px solid #2E3A48;
+ width: 40%;
+ padding-right: -18rem;
+ line-height: 50px;
+ margin-bottom: -1.2rem;
+}
+
+.paragraph {
+ max-width: 38%;
+ border:solid #2E3A48 3px;
+
+}
+
+.firstbutton {
+ background: #008fff;
+color:white;
+max-width: 10%;
+font-size:15px;
+border-radius: 13px;
+height: 39px ;
+border: #008fff;
+font-weight:400;
+
+}
+.picture {
+   margin-top: -15rem;
+    margin-left:47rem;
+
+}
+.metaverse {
+
+width:450px;
+
+
+}
+/* end of the header section now we will start this section for the some random information part */
+
+#Artists {
+ border:solid white 3px;
+ text-align:center;
+font-size: 30px;
+
+}
+.rappers {
+ display:flex;
+ gap: 23px;
+ margin-left:10.5rem;
+width: 1000px;
+border: 3px solid white;
+}
+.name {
+    text-align: center;
+}
+.shaping {
+ border-radius: 2rem;
+ width: 223px;
+
+}
+/* this is for the quote part */
+.Quote {
+background-color:#B7C4CF ;
+padding: 2rem;
+padding-left: 24rem;
+
+}
+.saying {
+max-width: 700px;
+font-size: 20px;
+
+}
+#author {
+ text-align: end;
+ 
+width: 700px;
+font-weight: bold;
+}
+.actions  {
+ background-color: #5a65f8;
+
+width: 800px;
+border-radius: 20px;
+padding: 13px;
+ margin-left: 15rem;
+ margin-top: 3rem;
+ display: flex;
+ justify-content: space-around;
+
+}
+.call, .text {
+ color: white;
+
+
+
+}
+
+.secondbutton {
+ 
+    background-color: #5a65f8;
+    color:white;
+    border-color: white;
+    height: 40px;
+    outline-color: #fff;
+    margin-top: 3rem;
+    padding: 13px;
+    border-radius: 14px;
+    padding-left: 19px;
+    padding-right: 19px;
+
+}
+.call {
+ font-size: 25px;
+}
+.footor {
+ background:#2E3A48;
+ color: white;
+text-align: center;
+padding: 2rem;
+margin-top: 4rem;
+
+}
