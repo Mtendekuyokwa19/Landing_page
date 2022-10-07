@@ -1,9 +1,7 @@
 /* don't be suprised about the border feature because i use that feaure to be understanding my flex-box code so i ussually set it to border solid red then later to the color of evrything.just dont mind it*/
 
 body {
- font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-min-width: 100%;
-}
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', }
 
 /*this is for the first tabs */
 .header {
